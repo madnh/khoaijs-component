@@ -84,7 +84,7 @@
      * @return {{}}
      */
     Component.prototype.getOptions = function () {
-        return _.cloneDeef(this.options);
+        return _.cloneDeep(this.options);
     };
 
     /**
